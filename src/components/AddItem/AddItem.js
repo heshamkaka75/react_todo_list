@@ -12,6 +12,7 @@ class AddItem extends Component {
     })
   }
 
+
   handelSubmit = (e) => {
     e.preventDefault()
     if(e.target.name.value === ''){
